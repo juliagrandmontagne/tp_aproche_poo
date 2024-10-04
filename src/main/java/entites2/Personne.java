@@ -3,11 +3,12 @@ package entites2;
 import entites.AdressePostale;
 
 public class Personne {
-    public static void main (String[]  args)
+    personne ( String nom, String prenom, String adresse )
     {
         Public.String nom;
         Public.String prenom;
-        AdressePostale adressePostalePersonne = new AdressePostale();
+        Public.String adresse;
+        AdressePostale adressePostalePersonne = new AdressePostale(int numeroRue, String libelleRue, int codePostal, string ville);
 
     }
 }

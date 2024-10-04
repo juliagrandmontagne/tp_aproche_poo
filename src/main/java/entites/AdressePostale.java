@@ -1,11 +1,11 @@
 package entites;
 
 public class AdressePostale {
-    public static void main (String[]  args)
+   Adresse (int numeroRue, String libelleRue, int codePostal, string ville)
     {
-    int numeroRue;
-String libelleRue;
-int codePostal;
-string ville;
+    this.numeroRue = numeroRue;
+this.libelleRue = libelleRue;
+this.codePostal = codePostal;
+this.ville = ville;
     }
 }
