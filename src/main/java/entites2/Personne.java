@@ -7,7 +7,7 @@ public class Personne {
     {
         Public.String nom;
         Public.String prenom;
-        Adresse postal adressePostalePersonne = new AdressePostale();
+        AdressePostale adressePostalePersonne = new AdressePostale();
 
     }
 }
