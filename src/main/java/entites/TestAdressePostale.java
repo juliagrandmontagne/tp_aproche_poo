@@ -1,11 +1,12 @@
 package entites;
 
 public class TestAdressePostale {
-    public static void main (String[]  args)
-    {
-        AdressePostale adr1 = new AdressePostale(int numeroRue, String libelleRue, int codePostal, string ville);
-        AdressePostale adr2 = new AdressePostale(int numeroRue, String libelleRue, int codePostal, string ville);
-    }
-    }
 
+    public static void main(String[] args) {
+
+        AdressePostale a1 = new AdressePostale(15, "rue du Marché", 44000, "Nantes");
+        AdressePostale a2 = new AdressePostale(1, "rue des Lilas", 34000, "Montpellier");
+
+        System.out.println(a1);
+    }
 }
