@@ -9,5 +9,6 @@ public class TestMethodeStatic {
         int b = 27;
         int m =Integer.max(a,b );
         System.out.println(m);
+        toString()
     }
 }
