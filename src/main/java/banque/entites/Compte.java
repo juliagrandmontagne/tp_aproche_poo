@@ -1,12 +1,28 @@
 package banque.entites;
-
 public class Compte {
-    int numéroDeCompte;
-    int soldeDuCompte;
+    private int numéroDeCompte;
+    private int soldeDuCompte;
 
     public Compte(int soldeDuCompte, int numéroDeCompte) {
         this.soldeDuCompte = soldeDuCompte;
         this.numéroDeCompte = numéroDeCompte;
+
     }
 
+    public void setNuméroDeCompte(int numéroDeCompte) {
+        this.numéroDeCompte = numéroDeCompte;
+    }
+
+    public int getNuméroDeCompte() {
+        return numéroDeCompte;
+    }
+
+    public void setSoldeDuCompte(int soldeDuCompte) {
+        this.soldeDuCompte = soldeDuCompte;
+
+    }
+
+    public int getSoldeDuCompte() {
+        return soldeDuCompte;
+    }
 }
