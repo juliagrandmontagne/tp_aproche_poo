@@ -1,5 +1,5 @@
 package fr.diginamic.operations.essais;
-import banque.entites.Compte;
+//import banque.entites.Compte;
 import fr.diginamic.operations.Operations;
 public class TestOperations {
     public static void main(String[] args) {
