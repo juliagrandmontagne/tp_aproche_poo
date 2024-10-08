@@ -17,12 +17,22 @@ public class Operations {
         this.signe = signe ;
         char addition = '+' ;
         char soustraction = '-' ;
+        char multiplication = '*' ;
+        char division = '/' ;
         if ( signe == addition ) {
             return(a+b);
         }
         else if (signe == soustraction )
         {
             return(a-b);
+        }
+        else if (signe == multiplication )
+        {
+            return(a*b);
+        }
+        else if (signe == division )
+        {
+            return(a/b);
         }
         else
         {
