@@ -8,6 +8,10 @@ public class Compte {
         this.numéroDeCompte = numéroDeCompte;
 
     }
+    @Override
+    public String toString() {
+        return numéroDeCompte+""+soldeDuCompte;
+    }
 
     public void setNuméroDeCompte(int numéroDeCompte) {
         this.numéroDeCompte = numéroDeCompte;

@@ -1,10 +1,18 @@
 package banque.entites;
 
 public class CompteTaux extends Compte {
-    int leTauxDeRémunération;
+    private double taux ;
 
-    public CompteTaux(int soldeDuCompte, int numéroDeCompte, int leTauxDeRémunération) {
+    public CompteTaux(int soldeDuCompte, int numéroDeCompte, double taux) {
         super(soldeDuCompte, numéroDeCompte);
-        this.leTauxDeRémunération = leTauxDeRémunération;
+        this.taux = taux;
+    }
+
+    public double getTaux() {
+        return taux;
+    }
+
+    public void setTaux(double taux) {
+        this.taux = taux;
     }
 }
