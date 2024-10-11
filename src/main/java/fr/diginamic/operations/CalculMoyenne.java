@@ -2,14 +2,13 @@ package fr.diginamic.operations;
 
 public class CalculMoyenne {
     public double [] tableau = new double [0];
-//            {15.00,10.00,5.00};
-    //   {1.5, 2.7, 3.2, 4.8, 5.1}
 
     double ajout;
 
-    public CalculMoyenne(double[] tableau, double ajout) {
-        this.tableau = tableau;
-    }
+
+        public CalculMoyenne() {
+        this.tableau = new double[0];
+        }
     public double[] ajout (double ajout)
     {
         double [] arrayCopy = new double[tableau.length+1];
@@ -38,5 +37,11 @@ public class CalculMoyenne {
         return (somme/tableau.length);
         }
 
+    }
+    public void afficherTableau() {
+        for (double v : tableau) {
+            System.out.print(v + " ");
+        }
+        System.out.println();
     }
 }

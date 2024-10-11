@@ -6,27 +6,32 @@ public class Theatre {
     private int capaciteMax = 100;
     private int nombreClientInscrit;
 
-    public Theatre(String nom, int nombreClientInscrit) {
+    public Theatre(String nom) {
         this.nom = nom;
-//        this.recetteTotal = recetteTotal;
-//        this.capaciteMax = capaciteMax;
-        this.nombreClientInscrit = nombreClientInscrit;
+        this.recetteTotal = 0;
+        this.nombreClientInscrit = 0; // Pas de clients inscrits au début
     }
-    public void inscrire (int nombreClients, double prixParClient )
-    {
-        int simulationInscription =  nombreClientInscrit + nombreClients;
-        int placeRestante = capaciteMax  - nombreClientInscrit;
-        if (simulationInscription <= capaciteMax) {
-            nombreClientInscrit = simulationInscription;
-            recetteTotal = recetteTotal + nombreClients * prixParClient;
-            System.out.println("Inscription realiser il reste "+ placeRestante +" place(s)" );
-            System.out.println("Recette total "+ recetteTotal );
+    public void inscrire(int nombreClients, double prixParClient) {
+        int simulationInscription = nombreClientInscrit + nombreClients;
+        int placesRestantes = capaciteMax - nombreClientInscrit;
 
+        if (simulationInscription <= capaciteMax) {
+
+            nombreClientInscrit += nombreClients;
+            recetteTotal += nombreClients * prixParClient;
+            placesRestantes = capaciteMax - nombreClientInscrit;
+            System.out.println("Inscription réussie il reste " + placesRestantes + " place(s).");
+            System.out.println("Recette totale : " + recetteTotal + " euros.");
+        } else {
+            System.out.println("Erreur : Le théâtre est complet. Impossible d'inscrire autant de clients.");
         }
-    else
-        {
-            System.out.println("le théatre est complet vous ne pouvez pas inscrire tant de monde" );
-        }
+    }
+    public void afficherEtat() {
+        System.out.println("Nom du théâtre : " + nom);
+        System.out.println("Capacité maximale : " + capaciteMax);
+        System.out.println("Clients inscrits : " + nombreClientInscrit);
+        System.out.println("Recette totale : " + recetteTotal + " euros.");
+        System.out.println("Places restantes : " + (capaciteMax - nombreClientInscrit));
     }
 
     public double getRecetteTotal() {
