@@ -18,8 +18,8 @@ public abstract class Salarie extends Intervenant {
     }
 
     public void afficherDonnees() {
-        System.out.println(getPrenom());
-        System.out.println(getNom());
+        System.out.println(super.getPrenom());
+        System.out.println(super.getNom());
         System.out.println(getSalaire());
         System.out.println(getType());
     }

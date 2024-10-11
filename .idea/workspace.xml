@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681e4f56-6001-41c9-a146-45722eada6c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/CreerFichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/LectureFichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/LectureFichierVille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/Ville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Chambre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Cuisine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/SalleDeBain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Salon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/WC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Salarie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/essais/TestIntervenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/CreationListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/FusionListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestListeInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestListeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/maps/CreationEtManipulationMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/maps/CreationMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/maps/FusionMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/maps/MapVilles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tri/Ville.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/ManipulationChaine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/ManipulationChaine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/entites/Salarie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/entites/Salarie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Theatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/essais/TestTheatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/essais/TestTheatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/operations/CalculMoyenne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/operations/CalculMoyenne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/operations/essais/TestMoyenne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/operations/essais/TestMoyenne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Intervenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Intervenant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Pigiste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Pigiste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Salarie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Salarie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/essais/TestIntervenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/essais/TestIntervenant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +52,7 @@
     "Application.ManipulationChaine.executor": "Run",
     "Application.MapVilles.executor": "Run",
     "Application.TestBanque.executor": "Run",
-    "Application.TestIntervenant.executor": "Run",
+    "Application.TestIntervenant.executor": "Debug",
     "Application.TestListeInt.executor": "Run",
     "Application.TestListeString.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",

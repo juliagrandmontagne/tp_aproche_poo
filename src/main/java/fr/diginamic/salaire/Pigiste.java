@@ -16,7 +16,12 @@ public abstract class Pigiste extends Intervenant {
     public int getSalaire() {
         return NombreDeJourTravailler*montantJournalierDeRemuneration;
     }
-
+    public void afficherDonnees() {
+        System.out.println(super.getPrenom());
+        System.out.println(super.getNom());
+        System.out.println(getSalaire());
+        System.out.println("Pigiste");
+    }
     //   nb_jour, prix
 //    public Pigiste(String nom, String prenom) {
 //        this.nom = nom;
