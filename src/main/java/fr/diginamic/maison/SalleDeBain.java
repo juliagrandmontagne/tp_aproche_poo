@@ -4,10 +4,9 @@ public class SalleDeBain extends Piece {
     private double superficie;
     private int numeroEtage;
 
-    public SalleDeBain(double superficie, int numeroEtage, double superficie1, int numeroEtage1) {
+
+    public SalleDeBain(double superficie, int numeroEtage) {
         super(superficie, numeroEtage);
-        this.superficie = superficie1;
-        this.numeroEtage = numeroEtage1;
     }
 
     public double getSuperficie() {

@@ -10,5 +10,10 @@ public class TestIntervenant {
         p1.afficherDonnees();
         p2.afficherDonnees();
 
+        // p1.getSalaire();
+//        System.out.println(p1.getSalaire());
+//        System.out.println(p2.getSalaire());
+
+
     }
 }

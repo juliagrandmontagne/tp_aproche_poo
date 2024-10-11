@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681e4f56-6001-41c9-a146-45722eada6c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Combat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Personnage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/essais/TestMaison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Intervenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Intervenant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Pigiste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Pigiste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Salarie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Salarie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Chambre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Cuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Cuisine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/SalleDeBain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/SalleDeBain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Salon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Salon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/WC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/WC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/essais/TestIntervenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/essais/TestIntervenant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Combat.executor": "Run",
     "Application.CreationEtManipulationMap.executor": "Run",
     "Application.CreationListe.executor": "Run",
     "Application.CreationMap.executor": "Run",
@@ -52,9 +60,10 @@
     "Application.ManipulationChaine.executor": "Run",
     "Application.MapVilles.executor": "Run",
     "Application.TestBanque.executor": "Run",
-    "Application.TestIntervenant.executor": "Debug",
+    "Application.TestIntervenant.executor": "Run",
     "Application.TestListeInt.executor": "Run",
     "Application.TestListeString.executor": "Run",
+    "Application.TestMaison.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestMoyenne.executor": "Run",
     "Application.TestOperations.executor": "Run",
@@ -75,13 +84,13 @@
       <recent name="tri" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestIntervenant">
-    <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.ManipulationChaine" />
+  <component name="RunManager" selected="Application.Combat">
+    <configuration name="Combat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.jdr.Combat" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="PATTERN" value="fr.diginamic.jdr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maps.MapVilles" />
+    <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.ManipulationChaine" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="maps.*" />
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.operations.essais.TestMoyenne" />
+    <configuration name="TestMaison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.maison.essais.TestMaison" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.operations.essais.*" />
+          <option name="PATTERN" value="fr.diginamic.maison.essais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Combat" />
+        <item itemvalue="Application.TestMaison" />
         <item itemvalue="Application.TestIntervenant" />
         <item itemvalue="Application.TestTheatre" />
         <item itemvalue="Application.ManipulationChaine" />
-        <item itemvalue="Application.TestMoyenne" />
-        <item itemvalue="Application.MapVilles" />
       </list>
     </recent_temporary>
   </component>

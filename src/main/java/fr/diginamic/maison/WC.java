@@ -4,10 +4,8 @@ public class WC extends Piece {
     private double superficie;
     private int numeroEtage;
 
-    public WC(double superficie, int numeroEtage, double superficie1, int numeroEtage1) {
+    public WC(double superficie, int numeroEtage) {
         super(superficie, numeroEtage);
-        this.superficie = superficie1;
-        this.numeroEtage = numeroEtage1;
     }
 
     public double getSuperficie() {

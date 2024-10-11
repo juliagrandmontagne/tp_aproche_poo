@@ -1,12 +1,11 @@
 package fr.diginamic.maison;
 
-public abstract class Chambre {
+public abstract class Chambre  extends Piece{
     private double superficie;
     private int numeroEtage;
 
     public Chambre(double superficie, int numeroEtage) {
-        this.superficie = superficie;
-        this.numeroEtage = numeroEtage;
+        super(superficie, numeroEtage);
     }
 
     public double getSuperficie() {
