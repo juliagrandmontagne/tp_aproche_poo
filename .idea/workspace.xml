@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681e4f56-6001-41c9-a146-45722eada6c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Combat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Creature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Personnage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/essais/TestMaison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Chambre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Cuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Cuisine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/SalleDeBain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/SalleDeBain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Salon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Salon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/WC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/WC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/essais/TestIntervenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/essais/TestIntervenant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Combat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -44,13 +44,14 @@ public class Combat {
                    {
                        crea.setPointDeVie(0);}
                    System.out.println("il reste "+crea.getPointDeVie()+" point de vie a la créature");
-                   if (p1.getPointDeVie() == 0)
+                   if (crea.getPointDeVie() == 0)
                    {
                        System.out.println("la creature est morte");
-                       if (crea.getEspece() == "troll"){
+
+                       if (crea.getEspece().compareTo("troll") == 0){
                            p1.setScore(p1.getScore()+5);
                        }
-                       else if (crea.getEspece() == "gobelin") {
+                       else if (crea.getEspece().compareTo("gobelin") == 0) {
                            p1.setScore(p1.getScore()+2);
                        }
                        else {
