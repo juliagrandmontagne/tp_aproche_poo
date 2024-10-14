@@ -1,15 +1,18 @@
 package Date;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 import java.util.TimeZone;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
 import java.time.Month;
-
+import java.util.Date;
 
 public class DateDuJour {
     public static void main(String[] args) {
-//        System.out.println("coucou");
+        Date dateDuJour = new Date();
+        SimpleDateFormat formateurJour = new SimpleDateFormat("dd/MM/yyyy");
+        System.out.println(formateurJour.format(dateDuJour));
         Calendar date = Calendar.getInstance();
         // Date et heure d'aujourd'hui en utilisant le fuseau horaire de la France
         Calendar dateFrance = Calendar.getInstance(Locale.FRANCE);
