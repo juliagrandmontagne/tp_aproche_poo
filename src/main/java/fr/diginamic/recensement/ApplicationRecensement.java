@@ -45,7 +45,6 @@ public class ApplicationRecensement {
                System.out.println(" ");
                break;
            case 9 :
-               System.out.println(" ");
                break;
        }
     }

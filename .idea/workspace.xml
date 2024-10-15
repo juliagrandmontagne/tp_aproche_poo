@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681e4f56-6001-41c9-a146-45722eada6c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/TesStringbuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/RechercheRegion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Application.Recensement.executor": "Run",
     "Application.RechercheDepartement (1).executor": "Run",
     "Application.RechercheDepartement.executor": "Run",
+    "Application.RechercheRegion.executor": "Run",
     "Application.RechercheVille.executor": "Run",
     "Application.TesStringbuilder.executor": "Run",
     "Application.TestBanque.executor": "Run",
@@ -86,9 +87,17 @@
       <recent name="tri" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesStringbuilder">
-    <configuration name="Recensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.Recensement" />
+  <component name="RunManager" selected="Application.RechercheRegion">
+    <configuration name="RechercheDepartement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="RechercheDepartement" />
+      <module name="approche-objet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechercheDepartement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.RechercheDepartement" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -100,16 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechercheDepartement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="RechercheDepartement" />
-      <module name="approche-objet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RechercheDepartement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.RechercheDepartement" />
+    <configuration name="RechercheRegion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.RechercheRegion" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RechercheRegion" />
         <item itemvalue="Application.TesStringbuilder" />
         <item itemvalue="Application.RechercheDepartement" />
         <item itemvalue="Application.RechercheDepartement (1)" />
         <item itemvalue="Application.RechercheVille" />
-        <item itemvalue="Application.Recensement" />
       </list>
     </recent_temporary>
   </component>
