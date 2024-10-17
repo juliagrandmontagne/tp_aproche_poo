@@ -1,9 +1,18 @@
 package fr.diginamic.recensement;
 
+import java.io.IOException;
 import java.util.Scanner;
 
+import static fr.diginamic.recensement.Departement.*;
+import static fr.diginamic.recensement.RechercheVille.rechercheVille;
+import static fr.diginamic.recensement.Region.getHabitantsParRegion;
+import static fr.diginamic.recensement.Region.get10VillesPlusPeupleesRegion;
+import static fr.diginamic.recensement.Region.get10RegionsPlusPeuplees;
+import static fr.diginamic.recensement.Ville.get10VillesPlusPeupleesFrance;
+
+
 public class ApplicationRecensement {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Population d’une ville donnée tapper 1");
         System.out.println("Population d’un département donnée tapper 2");
@@ -17,32 +26,28 @@ public class ApplicationRecensement {
         int nb = scanner.nextInt();
        switch (nb){
             case 1:
-//                RecherchePopulationVille recherche = new RecherchePopulationVille();
-//                recherche.traiter(recensement, scanner);
-                System.out.println("Population d’une ville donnée tapper 1");
-
+                rechercheVille();
                 break;
            case 2 :
-               System.out.println("Population d’un département donnée tapper 2");
-
+               getHabitantsParDepartement();
                break;
            case 3 :
-               System.out.println("Population d’une région donnée tapper 3");
+               getHabitantsParRegion();
                break;
            case 4 :
-               System.out.println(" ");
+               get10RegionsPlusPeuplees();
                break;
            case 5 :
-               System.out.println(" ");
+               get10DepartementPlusPeuplees();
                break;
            case 6 :
-               System.out.println(" ");
+               get10VillesPlusPeupleesDepartement();
                break;
            case 7 :
-               System.out.println(" ");
+               get10VillesPlusPeupleesRegion();
                break;
            case 8 :
-               System.out.println(" ");
+               get10VillesPlusPeupleesFrance();
                break;
            case 9 :
                break;

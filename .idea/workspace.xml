@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681e4f56-6001-41c9-a146-45722eada6c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/RechercheRegion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Departement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Departement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/RechercheRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/RechercheRegion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/RechercheVille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/RechercheVille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Region.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,7 @@
     "Application.CreationMap.executor": "Run",
     "Application.CreerFichier.executor": "Run",
     "Application.DateDuJour.executor": "Run",
+    "Application.Departement.executor": "Run",
     "Application.FusionListe.executor": "Run",
     "Application.FusionMap.executor": "Run",
     "Application.LectureFichier.executor": "Run",
@@ -57,6 +61,7 @@
     "Application.RechercheDepartement.executor": "Run",
     "Application.RechercheRegion.executor": "Run",
     "Application.RechercheVille.executor": "Run",
+    "Application.Region.executor": "Run",
     "Application.TesStringbuilder.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestEquals.executor": "Run",
@@ -87,17 +92,35 @@
       <recent name="tri" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RechercheRegion">
-    <configuration name="RechercheDepartement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="RechercheDepartement" />
+  <component name="RunManager" selected="Application.Departement">
+    <configuration name="ApplicationRecensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.ApplicationRecensement" />
       <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.recensement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechercheDepartement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.RechercheDepartement" />
+    <configuration name="Departement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.Departement" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.recensement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.Recensement" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechercheVille" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.RechercheVille" />
+    <configuration name="Region" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.Region" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -135,26 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesStringbuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TesStringbuilder" />
-      <module name="approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaines.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Departement" />
+        <item itemvalue="Application.ApplicationRecensement" />
+        <item itemvalue="Application.Region" />
+        <item itemvalue="Application.Recensement" />
         <item itemvalue="Application.RechercheRegion" />
-        <item itemvalue="Application.TesStringbuilder" />
-        <item itemvalue="Application.RechercheDepartement" />
-        <item itemvalue="Application.RechercheDepartement (1)" />
-        <item itemvalue="Application.RechercheVille" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +223,11 @@
           <line>44</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Recensement.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/fichier/LectureFichier.java</url>
           <line>10</line>
@@ -266,6 +281,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Region.java</url>
+          <line>113</line>
+          <properties class="fr.diginamic.recensement.Region" method="get10VillesPlusPeupleesRegion">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Departement.java</url>
+          <line>68</line>
+          <properties class="fr.diginamic.recensement.Departement" method="getHabitantsParDepartement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

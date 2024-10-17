@@ -19,17 +19,6 @@ public class RechercheVille {
                 indexdemander = i;
             }
         }
-
-//       Optimisation à faire
-//        while (indexdemander < 0 || i<V1.size()){
-//            System.out.println(i);
-//            System.out.println(indexdemander);
-//            if (V1.get(i).nomDeLaCommune.equals(ville_demander)){
-//                System.out.println("trouver");
-//                indexdemander = i;
-//            }
-//            i=i+1;
-//        }
         if (indexdemander == -1) {
             System.out.println("La ville demmandé n'est pas dans la liste");
         }
