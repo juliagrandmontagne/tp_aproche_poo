@@ -68,79 +68,38 @@ public class Ville {
     public int getPopulationTotale() {
         return populationTotale;
     }
-    public static ArrayList<Ville> remplissageVille(List<Ville> villes) throws IOException {
-        ArrayList<Ville> ville = new ArrayList<Ville>();
-        boolean trouver = false;
-        int index = -1;
-        for (Ville villeIndex : villes) {
-            trouver = false;
+    public static void get10VillesPlusPeupleesFrance() throws IOException {
+        List<Ville> dixPlusgrossevilleFrance= new ArrayList<Ville>();
+        List<Ville> V1= recuperationVille();
 
-            for (int i = 0; i < villes.size(); i++) {
-//                if (villeIndex.nomDeLaCommuneequals(ville.get(i).NumeroDeDepartement)) {
-//                    trouver = true;
-//                    index = i;
-//                }
-            }
-            if (trouver) {
-                //ville.get(villeIndex);
+        for (Ville v : V1) {
+            if (dixPlusgrossevilleFrance.size() == 0) {
+                dixPlusgrossevilleFrance.add(v);
             }
             else {
-                Ville v1 = new Ville(villeIndex);
-                ville.add(v1);
-
-               // villes.get(villes.size()-1).ajoutVilleDansDepartement(villeIndex);
-
-            }
-        }
-        return ville;
-    }
-    public static void get10VillesPlusPeupleesFrance() throws IOException {
-        List<Ville> dixPlusgrossevilleDepartement= new ArrayList<Ville>();
-
-        List<Ville> V1= recuperationVille();
-        ArrayList<Departement> departement = remplissageDepatement(V1);
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Tapper le code departement");
-        String departement_demander = scanner.nextLine();
-
-        int indexdemander = -1;
-        for (int i = 0; i < departement.size(); i++) {
-            if (departement.get(i).NumeroDeDepartement.equals(departement_demander)) {
-                indexdemander = i;
-            }
-        }
-        if (indexdemander == -1) {
-            System.out.println("Le departement demmandé n'est pas dans la liste");
-        }
-        else {
-            System.out.println(departement.get(indexdemander).villeParDepartement.size());
-            for (Ville v : departement.get(indexdemander).villeParDepartement) {
-                if (dixPlusgrossevilleDepartement.size() == 0) {
-                    dixPlusgrossevilleDepartement.add(v);
-                }
-                else {
-                    boolean trouver = false;
-                    int j =0;
-                    for (Ville v2 : dixPlusgrossevilleDepartement) {
-                        if (v2.populationTotale<v.populationTotale){
-                            if (trouver == false) {
-                                trouver = true;
-                                dixPlusgrossevilleDepartement.add(j, v);
-                            }
+                boolean trouver = false;
+                int j =0;
+                int index = -1;
+                for (Ville v2 : dixPlusgrossevilleFrance) {
+                    if (v2.populationTotale<v.populationTotale){
+                        if (trouver == false) {
+                            trouver = true;
+                            index = j;
                         }
-                        j=j+1;
-
                     }
-                    if (trouver == false) {
-                        dixPlusgrossevilleDepartement.add(v);
-                    }
+                    j=j+1;
+                }
+                if (trouver == false) {
+                    dixPlusgrossevilleFrance.add(v);
+                } else {
+                    dixPlusgrossevilleFrance.add(index, v);
                 }
             }
-            for (int i = 0; i < 10; i++) {
-                System.out.println(dixPlusgrossevilleDepartement.get(i).nomDeLaCommune);
-            }
         }
+        for (int i = 0; i < 10; i++) {
+            System.out.println(dixPlusgrossevilleFrance.get(i).nomDeLaCommune);
+        }
+
     }
     public void setPopulationTotale(int populationTotale) {
         this.populationTotale = populationTotale;

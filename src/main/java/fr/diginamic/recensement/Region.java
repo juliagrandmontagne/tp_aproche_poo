@@ -1,5 +1,6 @@
 package fr.diginamic.recensement;
 
+import javax.lang.model.util.ElementScanner6;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -131,7 +132,6 @@ public class Region {
             System.out.println("La region demmandé n'est pas dans la liste");
         }
         else {
-            System.out.println(region.get(indexdemander).villeParRegion.size());
             for (Ville v : region.get(indexdemander).villeParRegion) {
                 if (dixPlusgrossevilleRegion.size() == 0) {
                     dixPlusgrossevilleRegion.add(v);
@@ -139,18 +139,20 @@ public class Region {
                 else {
                     boolean trouver = false;
                     int j =0;
+                    int index = -1;
                     for (Ville v2 : dixPlusgrossevilleRegion) {
                         if (v2.populationTotale<v.populationTotale){
                             if (trouver == false) {
                                 trouver = true;
-                                dixPlusgrossevilleRegion.add(j, v);
+                                index = j;
                             }
                         }
                         j=j+1;
-
                     }
                     if (trouver == false) {
                         dixPlusgrossevilleRegion.add(v);
+                    } else {
+                        dixPlusgrossevilleRegion.add(index, v);
                     }
                 }
             }
@@ -170,18 +172,18 @@ public class Region {
 
 
         for (Region r : region) {
-            System.out.println(r.NomRegion + " " + region.size());
             if (dixPlusgrosseRegion.size() == 0) {
                 dixPlusgrosseRegion.add(r);
             }
             else {
                 boolean trouver = false;
                 int j =0;
+                int index = -1;
                 for (Region r2 : dixPlusgrosseRegion) {
                     if (r2.nombreTotalHabitant<r.nombreTotalHabitant){
                         if (trouver == false) {
                             trouver = true;
-                            dixPlusgrosseRegion.add(j, r);
+                            index = j;
                         }
                     }
                     j=j+1;
@@ -189,6 +191,8 @@ public class Region {
 
                 if (trouver == false) {
                     dixPlusgrosseRegion.add(r);
+                } else {
+                    dixPlusgrosseRegion.add(index, r);
                 }
             }
         }

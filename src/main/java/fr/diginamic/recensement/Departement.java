@@ -109,7 +109,6 @@ public class Departement {
             System.out.println("Le departement demmandé n'est pas dans la liste");
         }
         else {
-            System.out.println(departement.get(indexdemander).villeParDepartement.size());
             for (Ville v : departement.get(indexdemander).villeParDepartement) {
                 if (dixPlusgrossevilleDepartement.size() == 0) {
                     dixPlusgrossevilleDepartement.add(v);
@@ -117,11 +116,12 @@ public class Departement {
                 else {
                     boolean trouver = false;
                     int j =0;
+                    int index=-1;
                     for (Ville v2 : dixPlusgrossevilleDepartement) {
                         if (v2.populationTotale<v.populationTotale){
                             if (trouver == false) {
                                 trouver = true;
-                                dixPlusgrossevilleDepartement.add(j, v);
+                                index = j;
                             }
                         }
                         j=j+1;
@@ -129,6 +129,8 @@ public class Departement {
                     }
                     if (trouver == false) {
                         dixPlusgrossevilleDepartement.add(v);
+                    } else {
+                        dixPlusgrossevilleDepartement.add(index, v);
                     }
                 }
             }
@@ -137,6 +139,7 @@ public class Departement {
             }
         }
     }
+
     public static void get10DepartementPlusPeuplees() throws IOException {
         List<Departement> dixPlusgrosseDepartement= new ArrayList<Departement>();
 
@@ -145,18 +148,18 @@ public class Departement {
 
 
         for (Departement d : departement) {
-            System.out.println(d.NumeroDeDepartement + " " + departement.size());
             if (dixPlusgrosseDepartement.size() == 0) {
                 dixPlusgrosseDepartement.add(d);
             }
             else {
                 boolean trouver = false;
                 int j =0;
+                int index = -1;
                 for (Departement r2 : dixPlusgrosseDepartement) {
                     if (r2.nombreTotalHabitant<d.nombreTotalHabitant){
                         if (trouver == false) {
                             trouver = true;
-                            dixPlusgrosseDepartement.add(j, d);
+                            index = j;
                         }
                     }
                     j=j+1;
@@ -164,6 +167,8 @@ public class Departement {
 
                 if (trouver == false) {
                     dixPlusgrosseDepartement.add(d);
+                } else {
+                    dixPlusgrosseDepartement.add(index, d);
                 }
             }
         }
